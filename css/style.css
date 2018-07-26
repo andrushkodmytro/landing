@@ -1,0 +1,232 @@
+/* line 10, ../sass/style.scss */
+html {
+  font-size: 12px;
+}
+
+/* line 13, ../sass/style.scss */
+.container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 3696px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+/* line 22, ../sass/style.scss */
+.container .section1 {
+  height: 41.66%;
+  background: url("../img/rectangle.jpg") no-repeat;
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+}
+/* line 29, ../sass/style.scss */
+.container .section1 .logo {
+  margin: 2.083% auto;
+}
+/* line 32, ../sass/style.scss */
+.container .section1 .logo img {
+  display: block;
+}
+/* line 35, ../sass/style.scss */
+.container .section1 .logo img[alt="lasoft powered"] {
+  margin: 1.44% auto;
+}
+/* line 39, ../sass/style.scss */
+.container .section1 .section1__header {
+  margin: 80px auto;
+}
+/* line 41, ../sass/style.scss */
+.container .section1 .section1__header h1 {
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #fff;
+}
+/* line 49, ../sass/style.scss */
+.container .section1 .section1__text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+/* line 55, ../sass/style.scss */
+.container .section1 .section1__button {
+  text-align: center;
+  margin: 23px auto;
+}
+/* line 58, ../sass/style.scss */
+.container .section1 .section1__button button {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #01ce9f;
+  height: 40px;
+  width: 195px;
+  border: none;
+}
+/* line 72, ../sass/style.scss */
+.container .section2 .section2__screenshot {
+  text-align: center;
+  margin-top: -330px;
+}
+/* line 76, ../sass/style.scss */
+.container .section2 .section2__screenshot img {
+  margin: 0 auto;
+  width: 41.5%;
+}
+/* line 81, ../sass/style.scss */
+.container .section2 .section2__inform {
+  display: flex;
+  align-items: center;
+}
+/* line 86, ../sass/style.scss */
+.container .section2 .section2__inform h3 {
+  margin-left: 300px;
+  font-size: 2.25rem;
+  line-height: 3rem;
+  width: 219px;
+  display: inline-block;
+}
+/* line 94, ../sass/style.scss */
+.container .section2 .section2__inform p {
+  width: 40%;
+  display: inline-block;
+  margin-left: 160px;
+  margin-top: 0;
+}
+/* line 104, ../sass/style.scss */
+.container .section2 .section2__walkboy {
+  margin-top: 164px;
+}
+/* line 107, ../sass/style.scss */
+.container .section2 .section2__walkboy img {
+  width: 100%;
+}
+/* line 114, ../sass/style.scss */
+.container .section3 .section3__header {
+  text-align: center;
+  margin-top: 160px;
+}
+/* line 117, ../sass/style.scss */
+.container .section3 .section3__header h3 {
+  font-size: 2.25rem;
+}
+/* line 121, ../sass/style.scss */
+.container .section3 .section3__function {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+/* line 127, ../sass/style.scss */
+.container .section3 .section3__function .section__function__item {
+  width: 300px;
+  height: 200px;
+  margin: 20px 50px;
+}
+/* line 132, ../sass/style.scss */
+.container .section3 .section3__function .section__function__item p {
+  text-align: center;
+}
+/* line 140, ../sass/style.scss */
+.container .section4 {
+  background-color: #273570;
+  height: 800px;
+}
+/* line 145, ../sass/style.scss */
+.container .section4 .section4__header h3 {
+  margin-top: 120px;
+  font-size: 2.25rem;
+  line-height: 3rem;
+  color: #fff;
+  text-align: center;
+}
+/* line 153, ../sass/style.scss */
+.container .section4 .section4__text {
+  display: flex;
+  margin: 80px 0;
+}
+/* line 157, ../sass/style.scss */
+.container .section4 .section4__text .section4__text__main {
+  width: 40%;
+  color: #fff;
+}
+/* line 161, ../sass/style.scss */
+.container .section4 .section4__text .section4__text__button {
+  width: 30%;
+}
+/* line 168, ../sass/style.scss */
+.container .section5 {
+  height: 303px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 176, ../sass/style.scss */
+.container .section5 .section5__board {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #01ce9f;
+  width: 60%;
+  height: 208px;
+  margin-top: -104px;
+}
+/* line 185, ../sass/style.scss */
+.container .section5 .section5__board h3 {
+  font-size: 2.25rem;
+  line-height: 3rem;
+  color: #fff;
+  text-align: center;
+}
+/* line 191, ../sass/style.scss */
+.container .section5 .section5__board button {
+  background-color: #273570;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  border: none;
+}
+/* line 199, ../sass/style.scss */
+.container .section5 .section5__logo {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 79px;
+}
+/* line 204, ../sass/style.scss */
+.container .section5 .section5__logo .section5__logo__walker {
+  display: flex;
+  align-items: center;
+}
+/* line 207, ../sass/style.scss */
+.container .section5 .section5__logo .section5__logo__walker p {
+  margin-left: 38px;
+}
+/* line 212, ../sass/style.scss */
+.container .section5 .section5__logo .section5__logo__lasoft {
+  text-align: right;
+}
+
+@media screen and (max-width: 540px) {
+  /* line 221, ../sass/style.scss */
+  html {
+    font-size: 4px;
+  }
+}
+@media screen and (max-width: 720px) {
+  /* line 226, ../sass/style.scss */
+  html {
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 960px) {
+  /* line 231, ../sass/style.scss */
+  html {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,234 @@
+$main__color:#01ce9f;
+$input__color:#f1f3f5;
+$label__color:#868e95;
+$text__color:#222529;
+$header__font:"NebasNeue";
+$label__font:"SourceSans-semibold";
+$link__font:"SourceSans-regular";
+
+
+html{
+    font-size: 12px;
+}
+.container{
+    width:100%;
+    max-width: 1920px;
+    margin:0 auto;
+    height:3696px;
+    background-color: #fff;
+    display:flex;
+    flex-direction: column;
+
+    .section1{
+        height:41.66%;
+        background:url("../img/rectangle.jpg")  no-repeat;
+        background-size: auto;
+        display: flex;
+        flex-direction: column;
+        
+        .logo{
+            margin:2.083% auto;
+            
+            img{
+                display: block;
+            }
+            img[alt="lasoft powered"]{
+                margin: 1.44% auto;
+            }
+        }
+        .section1__header{
+            margin:80px auto;
+            h1{
+                text-transform: uppercase;
+                font-size: 4.5rem;
+                line-height: 5rem;
+                text-align: center;
+                color: #fff;
+            }
+        }
+        .section1__text{
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color:#fff;
+            text-align: center;
+        }
+        .section1__button{
+            text-align: center;
+            margin:23px auto;
+            button{
+                font-size: 1rem;
+                line-height: 1.5rem;
+                border-radius: 4px;
+                color: #fff;
+                background-color: $main__color;
+                height:40px;
+                width:195px;
+                border:none;
+            }
+           
+        }
+    }
+    .section2{
+        .section2__screenshot{
+            text-align: center;
+            margin-top:-330px; 
+           
+            img{
+                margin:0 auto;
+                width:41.5%;
+            }
+        }
+        .section2__inform{
+            display: flex;
+            align-items: center;
+            
+            
+            h3{
+                margin-left: 300px;
+                font-size: 2.25rem;
+                line-height: 3rem;
+                width:219px;
+                display: inline-block;
+
+            }
+            p{
+                width: 40%;
+                display: inline-block;
+                margin-left: 160px;
+                margin-top: 0;
+                
+
+            }
+        
+        }
+        .section2__walkboy{
+            margin-top: 164px;
+
+           img{
+            width: 100%;
+
+           }
+        }
+    }
+    .section3{
+        .section3__header{
+            text-align: center;
+            margin-top: 160px;
+            h3{
+                font-size: 2.25rem;
+            }
+        }
+        .section3__function{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0 20px;
+
+            .section__function__item{
+                width:300px;
+                height: 200px;
+                margin:20px 50px;
+             
+                p{
+                    text-align: center;
+                }
+               
+            }
+        }
+
+    }
+    .section4{
+        background-color: #273570;
+        height:800px;
+        
+        .section4__header{
+            h3{
+                margin-top: 120px;
+                font-size: 2.25rem;
+                line-height: 3rem;
+                color:#fff;
+                text-align: center;
+            }
+        }
+        .section4__text{
+            display: flex;
+            margin: 80px 0;
+            
+                .section4__text__main{
+                    width:40%;
+                    color:#fff;
+                }
+                .section4__text__button{
+                    width:30%;
+
+                }
+            
+        }
+    }
+    .section5{
+        height:303px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+
+        .section5__board{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: $main__color;
+            width: 60%;
+            height:208px;
+            margin-top:-104px;
+            
+            h3{
+                font-size: 2.25rem;
+                line-height: 3rem;
+                color:#fff;
+                text-align: center;
+            }
+            button{
+                background-color:#273570;
+                border-radius:4px;
+                color: #fff;
+                height: 40px;
+                border:none;
+            }
+        }
+        .section5__logo{
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 79px;
+            .section5__logo__walker{
+                display: flex;
+                align-items: center;
+                p{
+                    margin-left: 38px;
+                }
+            }
+
+            .section5__logo__lasoft{
+                text-align: right;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:540px){
+    html{
+        font-size: 4px;
+    }
+}
+@media screen and (max-width:720px){
+    html{
+        font-size: 6px;
+    }
+}
+@media screen and (max-width:960px){
+    html{
+        font-size: 8px;
+    }
+}
