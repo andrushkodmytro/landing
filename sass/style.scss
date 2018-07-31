@@ -8,20 +8,21 @@ $link__font:"SourceSans-regular";
 
 
 html{
-    font-size: 12px;
+    font-size: 16px;
 }
 body{
     background-color: #868e95;
+    // width: 100%;
 
 }
 .container{
     width:100%;
     max-width: 1920px;
     margin:0 auto;
-    // height:3696px;
     background-color: #fff;
     display:flex;
     flex-direction: column;
+    // box-sizing: border-box;
 
     .section1{
         // height:74.074074vh;
@@ -151,22 +152,22 @@ body{
             padding: 0 20.416666%;
 
             .section__function__item{
-               width: 20vw;
+               width: 25%;
                 // height: 200px;
                 margin:20px 10px;
               
                 
                 div{
-                    height: 80px;
-                    width:80px;
+                    height: 100%;
+                    width:100%;
                     display: flex;
                     align-items: center;
                     margin:0 auto;
                     img{
                         width: auto;
-                        max-height: 80px;
+                        // max-height: 100%;
                         height:auto;
-                        max-width: 80px;
+                        // max-width: 100%;
                        display: block;
                        margin:0 auto;
                     }
@@ -204,7 +205,7 @@ body{
         }
         .section4__text{
             display: flex;
-            margin: 4.166666% 20.416666% 2.0833% 20.416666%;
+            margin: 4.166666% 5% 2.0833% 5%;
             display: flex;
             justify-content: space-between;
             
@@ -212,6 +213,10 @@ body{
                     width:66.197183%;
                     color:#fff;
                     font-family: $link__font;
+                    p{
+                        text-align: justify;
+                        font-size: 1rem;
+                    }
                     .section4__text__user{
                         display: flex;
                         margin-top: 1.25vw;
@@ -243,10 +248,10 @@ body{
             justify-content: space-between;
 
             div{
-                height:8px;
-                width: 8px;
+                height:0.5vw;
+                width: 0.5vw;
                 background-color: rgba(248, 249, 250, 0.2);
-                border-radius: 4px;
+                border-radius: 100%;
                 margin-right: 10%;
             }
             .active{
@@ -290,6 +295,8 @@ body{
                 border:none;
                 width: 17%;
                 text-transform: uppercase;
+                font-size: 1rem;
+                line-height: 1.5rem;
             }
         }
         .section5__logo{
@@ -301,9 +308,9 @@ body{
             .section5__logo__walker{
                 display: flex;
                 align-items: center;
-                // img{
-                //     width: 
-                // }
+                img{
+                    width: auto;
+                }
                 p{
                     margin-left: 38px;
                 }
@@ -311,29 +318,91 @@ body{
 
             .section5__logo__lasoft{
                 text-align: right;
+                height:50%;
             }
         }
 
     }
 }
 
-@media screen and (max-width:540px){
-    html{
-        font-size: 4px;
-    }
-}
-@media screen and (max-width:720px){
-    html{
-        font-size: 6px;
-    }
-}
-@media screen and (max-width:960px){
-    html{
-        font-size: 8px;
-    }
-}
-@media screen and (max-width:1240px){
+@media screen and (max-width:539px){
     html{
         font-size: 10px;
+        .container{
+
+            .section4{
+                .section4__text{
+                    // margin:0 auto;
+                    .section4__text__button,.section4__text__button{
+                        display: none;
+                    }
+                    .section4__text__main{
+                        width:100%;
+                    }
+                }
+            }
+            .section5{
+                .section5__logo{
+                    flex-direction: column;
+                    .section5__logo__walker{
+                        flex-direction: column;
+                        text-align: center;
+                    }
+                    .section5__logo__lasoft{
+                         text-align: center;
+                    }
+    
+                    
+                }
+                
+            }
+        }
+    }
+        
+        
+        
+    
+}
+
+@media screen and (min-width:540px) and (max-width:720px){
+    html{
+        font-size: 8px;
+
+       
+    }
+}
+@media screen and (min-width:720px) and (max-width:960px){
+    html{
+        font-size: 10px;
+        .section4__dot{
+            div{
+                height:2vw;
+                width: 2vw;
+            }
+        }
+    }
+}
+@media screen and (min-width:960px) and (max-width:1240px){
+    html{
+        font-size: 12px;
+      
+    }
+}
+   
+@media screen and (min-width:1240px){
+    html{
+        font-size: 14px;
+        .container{
+            .section4{
+                .section4__text{
+                    margin: 4.166666% 20.416666% 2.0833% 20.416666%;
+
+                    
+                }
+            
+            }
+       
+        }
+    
     }
 }
