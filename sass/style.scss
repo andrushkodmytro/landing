@@ -330,6 +330,12 @@ body{
         font-size: 10px;
         .container{
 
+
+            .section3__function{
+                flex-direction: column;
+                align-items: center;
+            }
+
             .section4{
                 .section4__text{
                     // margin:0 auto;
@@ -347,6 +353,9 @@ body{
                     .section5__logo__walker{
                         flex-direction: column;
                         text-align: center;
+                        p{
+                            font-size: 1rem;
+                        }
                     }
                     .section5__logo__lasoft{
                          text-align: center;
@@ -367,13 +376,18 @@ body{
 @media screen and (min-width:540px) and (max-width:720px){
     html{
         font-size: 8px;
-
+        .section3__function{
+            flex-direction: column;
+            align-items: center
+        }
+        
        
     }
 }
 @media screen and (min-width:720px) and (max-width:960px){
     html{
         font-size: 10px;
+      
         .section4__dot{
             div{
                 height:2vw;

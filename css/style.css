@@ -317,57 +317,71 @@ body {
   html {
     font-size: 10px;
   }
-  /* line 336, ../sass/style.scss */
+  /* line 334, ../sass/style.scss */
+  html .container .section3__function {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 342, ../sass/style.scss */
   html .container .section4 .section4__text .section4__text__button, html .container .section4 .section4__text .section4__text__button {
     display: none;
   }
-  /* line 339, ../sass/style.scss */
+  /* line 345, ../sass/style.scss */
   html .container .section4 .section4__text .section4__text__main {
     width: 100%;
   }
-  /* line 345, ../sass/style.scss */
+  /* line 351, ../sass/style.scss */
   html .container .section5 .section5__logo {
     flex-direction: column;
   }
-  /* line 347, ../sass/style.scss */
+  /* line 353, ../sass/style.scss */
   html .container .section5 .section5__logo .section5__logo__walker {
     flex-direction: column;
     text-align: center;
   }
-  /* line 351, ../sass/style.scss */
+  /* line 356, ../sass/style.scss */
+  html .container .section5 .section5__logo .section5__logo__walker p {
+    font-size: 1rem;
+  }
+  /* line 360, ../sass/style.scss */
   html .container .section5 .section5__logo .section5__logo__lasoft {
     text-align: center;
   }
 }
 @media screen and (min-width: 540px) and (max-width: 720px) {
-  /* line 368, ../sass/style.scss */
+  /* line 377, ../sass/style.scss */
   html {
     font-size: 8px;
   }
+  /* line 379, ../sass/style.scss */
+  html .section3__function {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 720px) and (max-width: 960px) {
-  /* line 375, ../sass/style.scss */
+  /* line 388, ../sass/style.scss */
   html {
     font-size: 10px;
   }
-  /* line 378, ../sass/style.scss */
+  /* line 392, ../sass/style.scss */
   html .section4__dot div {
     height: 2vw;
     width: 2vw;
   }
 }
 @media screen and (min-width: 960px) and (max-width: 1240px) {
-  /* line 386, ../sass/style.scss */
+  /* line 400, ../sass/style.scss */
   html {
     font-size: 12px;
   }
 }
 @media screen and (min-width: 1240px) {
-  /* line 393, ../sass/style.scss */
+  /* line 407, ../sass/style.scss */
   html {
     font-size: 14px;
   }
-  /* line 397, ../sass/style.scss */
+  /* line 411, ../sass/style.scss */
   html .container .section4 .section4__text {
     margin: 4.166666% 20.416666% 2.0833% 20.416666%;
   }
