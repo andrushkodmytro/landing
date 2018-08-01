@@ -317,6 +317,15 @@ body{
                     margin:5% 10% 5% 10%;
                 }
             }
+            .section2{
+                .section2__inform{
+                    .section2__text.section2__p{
+                        p{
+                            margin: 4px 0 0 0 !important;
+                        }
+                    }
+                }
+            }
             .section3__function{
                 flex-direction: column;
                 align-items: center;
@@ -434,7 +443,7 @@ body{
                         margin-right: 10%;
                         p{
                             text-align: justify;
-                            margin: 5% 10% 0 10%;
+                            margin: 5% 0 0 0;
                         }
                     }
                 }
@@ -479,20 +488,12 @@ body{
             .section2{
                 .section2__inform{
                     .section2__header{
-                        margin-left: 15%
+                        margin-left: 16%
                     }
-                    .section2__text{
-                        margin-right: 15%;
-                        margin-left: 7%;
-                    }
+                    
                 }              
             }
-            .section4{
-                .section4__text{
-                    margin: 4.166666% 10% 2.0833% 10%;   
-                }
             
-            }
             .section5{
                 .section5__board{
                     h3{
@@ -515,9 +516,21 @@ body{
     html{
         font-size: 16px;
         .container{
+
+            .section2{
+                .section2__inform{
+                    .section2__header{
+                        margin-left: 15%
+                    }
+                    .section2__text{
+                        margin-right: 15%;
+                        margin-left: 7%;
+                    }
+                }              
+            }
             .section4{
                 .section4__text{
-                    margin: 4.166666% 20.416666% 2.0833% 20.416666%;  
+                    margin: 4.166666% 18% 2.0833% 18%;  
                 }
             
             }

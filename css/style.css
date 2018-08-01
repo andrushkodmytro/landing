@@ -328,177 +328,181 @@ body {
   html .container .section1 .section1__text {
     margin: 5% 10% 5% 10%;
   }
-  /* line 320, ../sass/style.scss */
+  /* line 323, ../sass/style.scss */
+  html .container .section2 .section2__inform .section2__text.section2__p p {
+    margin: 4px 0 0 0 !important;
+  }
+  /* line 329, ../sass/style.scss */
   html .container .section3__function {
     flex-direction: column;
     align-items: center;
   }
-  /* line 326, ../sass/style.scss */
+  /* line 335, ../sass/style.scss */
   html .container .section5 .section5__board button {
     width: 60% !important;
   }
-  /* line 329, ../sass/style.scss */
+  /* line 338, ../sass/style.scss */
   html .container .section5 .section5__board h3 {
     font-size: 1.5rem;
   }
-  /* line 334, ../sass/style.scss */
+  /* line 343, ../sass/style.scss */
   html .container .section5 .section5__logo img {
     height: 4.70656vw;
   }
 }
 @media screen and (max-width: 720px) {
-  /* line 352, ../sass/style.scss */
+  /* line 361, ../sass/style.scss */
   html {
     font-size: 10px;
   }
-  /* line 356, ../sass/style.scss */
+  /* line 365, ../sass/style.scss */
   html .container .section1 .section1__header {
     margin: 0 auto;
   }
-  /* line 358, ../sass/style.scss */
+  /* line 367, ../sass/style.scss */
   html .container .section1 .section1__header h1 {
     font-size: 3rem;
     line-height: 3.7rem;
   }
-  /* line 365, ../sass/style.scss */
+  /* line 374, ../sass/style.scss */
   html .container .section3 .section3__function {
     flex-direction: column;
     align-items: center;
   }
-  /* line 368, ../sass/style.scss */
+  /* line 377, ../sass/style.scss */
   html .container .section3 .section3__function .section3__function__item {
     height: 35vw;
     width: 45%;
   }
-  /* line 371, ../sass/style.scss */
+  /* line 380, ../sass/style.scss */
   html .container .section3 .section3__function .section3__function__item img {
     width: 40%;
   }
-  /* line 381, ../sass/style.scss */
+  /* line 390, ../sass/style.scss */
   html .container .section4 .section4__text {
     margin: 2% 10%;
   }
-  /* line 383, ../sass/style.scss */
+  /* line 392, ../sass/style.scss */
   html .container .section4 .section4__text .section4__text__button, html .container .section4 .section4__text .section4__text__button {
     display: none;
   }
-  /* line 386, ../sass/style.scss */
+  /* line 395, ../sass/style.scss */
   html .container .section4 .section4__text .section4__text__main {
     width: 100%;
   }
-  /* line 393, ../sass/style.scss */
+  /* line 402, ../sass/style.scss */
   html .container .section5 .section5__board .boardbtn {
     width: 35%;
   }
-  /* line 400, ../sass/style.scss */
+  /* line 409, ../sass/style.scss */
   html .container .section5 .section5__logo img {
     height: 3vw;
   }
-  /* line 404, ../sass/style.scss */
+  /* line 413, ../sass/style.scss */
   html .container .section5 .section5__logo p {
     font-size: 1rem;
     margin: 1% 0 1% 0%;
   }
 }
 @media screen and (max-width: 960px) {
-  /* line 418, ../sass/style.scss */
+  /* line 427, ../sass/style.scss */
   html {
     font-size: 10px;
   }
-  /* line 422, ../sass/style.scss */
+  /* line 431, ../sass/style.scss */
   html .container .section2 .section2__inform {
     flex-direction: column;
   }
-  /* line 424, ../sass/style.scss */
+  /* line 433, ../sass/style.scss */
   html .container .section2 .section2__inform .section2__header {
     margin: 5% 10% 0 10%;
   }
-  /* line 427, ../sass/style.scss */
+  /* line 436, ../sass/style.scss */
   html .container .section2 .section2__inform .section2__header h3 {
     display: block;
     text-align: center;
   }
-  /* line 432, ../sass/style.scss */
+  /* line 441, ../sass/style.scss */
   html .container .section2 .section2__inform .section2__text.section2__p {
     margin-left: 10%;
     margin-right: 10%;
   }
-  /* line 435, ../sass/style.scss */
+  /* line 444, ../sass/style.scss */
   html .container .section2 .section2__inform .section2__text.section2__p p {
     text-align: justify;
-    margin: 5% 10% 0 10%;
+    margin: 5% 0 0 0;
   }
-  /* line 443, ../sass/style.scss */
+  /* line 452, ../sass/style.scss */
   html .container .section3 .section3__function {
     padding: 0 10%;
   }
-  /* line 449, ../sass/style.scss */
+  /* line 458, ../sass/style.scss */
   html .container .section4__dot.dot {
     margin-bottom: 18%;
   }
-  /* line 454, ../sass/style.scss */
+  /* line 463, ../sass/style.scss */
   html .container .section5 .section5__board {
     flex-direction: column;
     width: 80%;
     margin-top: -10%;
   }
-  /* line 458, ../sass/style.scss */
+  /* line 467, ../sass/style.scss */
   html .container .section5 .section5__board h3 {
     margin: 1% 10%;
   }
-  /* line 461, ../sass/style.scss */
+  /* line 470, ../sass/style.scss */
   html .container .section5 .section5__board button {
     margin: 1% 10%;
     width: 40%;
   }
-  /* line 466, ../sass/style.scss */
+  /* line 475, ../sass/style.scss */
   html .container .section5 .section5__logo {
     width: 80%;
     align-items: center;
   }
 }
 @media screen and (max-width: 1240px) {
-  /* line 475, ../sass/style.scss */
+  /* line 484, ../sass/style.scss */
   html {
     font-size: 12px;
   }
-  /* line 481, ../sass/style.scss */
+  /* line 490, ../sass/style.scss */
   html .container .section2 .section2__inform .section2__header {
-    margin-left: 15%;
+    margin-left: 16%;
   }
-  /* line 484, ../sass/style.scss */
-  html .container .section2 .section2__inform .section2__text {
-    margin-right: 15%;
-    margin-left: 7%;
-  }
-  /* line 491, ../sass/style.scss */
-  html .container .section4 .section4__text {
-    margin: 4.166666% 10% 2.0833% 10%;
-  }
-  /* line 498, ../sass/style.scss */
+  /* line 499, ../sass/style.scss */
   html .container .section5 .section5__board h3 {
     margin-left: 10%;
   }
-  /* line 501, ../sass/style.scss */
+  /* line 502, ../sass/style.scss */
   html .container .section5 .section5__board button {
     margin-right: 10%;
     width: 25%;
   }
 }
 @media screen and (min-width: 1600px) {
-  /* line 515, ../sass/style.scss */
+  /* line 516, ../sass/style.scss */
   html {
     font-size: 16px;
   }
-  /* line 519, ../sass/style.scss */
-  html .container .section4 .section4__text {
-    margin: 4.166666% 20.416666% 2.0833% 20.416666%;
+  /* line 522, ../sass/style.scss */
+  html .container .section2 .section2__inform .section2__header {
+    margin-left: 15%;
   }
-  /* line 526, ../sass/style.scss */
+  /* line 525, ../sass/style.scss */
+  html .container .section2 .section2__inform .section2__text {
+    margin-right: 15%;
+    margin-left: 7%;
+  }
+  /* line 532, ../sass/style.scss */
+  html .container .section4 .section4__text {
+    margin: 4.166666% 18% 2.0833% 18%;
+  }
+  /* line 539, ../sass/style.scss */
   html .container .section5 .section5__board h3 {
     margin-left: 10%;
   }
-  /* line 529, ../sass/style.scss */
+  /* line 542, ../sass/style.scss */
   html .container .section5 .section5__board button {
     margin-right: 10%;
     width: 20%;
