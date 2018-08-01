@@ -340,6 +340,7 @@ body{
                     }
                 }
                 .section5__logo{
+                    
                     img{
                         height:4.70656vw;
     
@@ -396,6 +397,15 @@ body{
                         width:100%;
                     }
                 }
+                .section4__dot{
+                    margin: 0 35%;
+                    div{
+                        height:8px;
+                        width:8px;
+                        border-radius: 5px;
+                }
+                    }
+                    
             }
             .section5{
                 .section5__board{
