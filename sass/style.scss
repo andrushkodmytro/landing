@@ -13,7 +13,6 @@ html{
 }
 body{
     background-color: #868e95;
-    // width: 100%;
 
 }
 .container{
@@ -23,10 +22,8 @@ body{
     background-color: #fff;
     display:flex;
     flex-direction: column;
-    // box-sizing: border-box;
 
     .section1{
-        // height:74.074074vh;
         background:url("../img/rectangle.jpg") center no-repeat;
         background-size:  auto 100%;
         display: flex;
@@ -43,7 +40,6 @@ body{
         }
         .section1__header{
             margin:4% auto 0 auto;
-            // width: 31.25%;
             h1{
                 text-transform: uppercase;
                 font-size: 5rem;
@@ -75,7 +71,6 @@ body{
                 width:195px;
                 border:none;
             }
-           
         }
     }
     .section2{
@@ -83,7 +78,6 @@ body{
         .section2__screenshot{
             text-align: center;
             margin-top:-15%; 
-           
             img{
                 margin:0 auto;
                 width:41.5%;
@@ -92,8 +86,7 @@ body{
         .section2__inform{
             display: flex;
             align-items: center;
-            margin: 7% auto 0 auto;            
-            
+            margin: 7% auto 0 auto;              
             .section2__header{
                 display: block;
                 margin-left: 20.41666%;
@@ -106,9 +99,7 @@ body{
                     font-family: $header__font;
                     // width:219px;
                     display: inline-block;
-            }
-            
-
+                }
             }
             .section2__text{
                 margin-right: 20.41666%;
@@ -121,15 +112,11 @@ body{
                     font-size:1rem;
                 }
             }
-               
-        
         }
         .section2__walkboy{
             margin-top: 8.541666%;
-
            img{
             width: 100%;
-
            }
         }
     }
@@ -148,15 +135,12 @@ body{
             flex-wrap: wrap;
             margin:4.166666% auto 8.28125% 0;
             padding: 0 20.416666%;
-
             .section3__function__item{
                width: 25%;
                 height: 15vw;
                 margin:20px 10px;
                 transition: 0.4s;
-                border-radius: 5px;
-              
-                
+                border-radius: 5px;          
                 div{
                     height: 60%;
                     width:100%;
@@ -165,27 +149,21 @@ body{
                     margin:0 auto;
                     img{
                         width: 25%;
-                        // max-height: 100%;
-                        // height:auto;
-                        // max-width: 100%;
                        display: block;
                        margin:0 auto;
                     }
                 }
-
                 p{
                     margin: 7% auto;
                     text-align: center;
                     font-family: $link__font;
                     font-size: 1rem;
-                }
-               
+                } 
             }
             .section3__function__item:hover{
                 background-color: rgba(129, 129, 129, 0.253);
                 transition: .5s;
             }
-
         }
 
     }
@@ -273,7 +251,6 @@ body{
             align-items: center;
             background-color: $main__color;
             width: 59%;
-            // height:20.833333%;
             margin-top:-5%;
             padding:4.166666% 0;
             
@@ -312,7 +289,7 @@ body{
                     height: 2.083333vw;
                 }
                 p{
-                    margin-left: 38px;
+                    font-size: 1rem
                 }
             
         }
@@ -332,8 +309,12 @@ body{
                 }
                 .section1__header{
                     h1{
-                        font-size: 2rem;
+                        font-size: 2.5em !important;
+                        line-height: 3rem;
                     }
+                }
+                .section1__text{
+                    margin:5% 10% 5% 10%;
                 }
             }
             .section3__function{
@@ -376,6 +357,7 @@ body{
                     margin:0 auto;
                     h1{
                         font-size: 3rem;
+                        line-height: 3.7rem
                     }
                 }
             }
@@ -422,19 +404,7 @@ body{
                         p{
                             font-size: 1rem;
                             margin: 1% 0 1% 0%;
-                        }
-                    // .section5__logo__lasoft{
-                    //      text-align: center;
-                    //      display: flex;
-                    //      align-items: center;
-                    //      img{
-                    //         height:3vw;
-                           
-
-                    //     }
-                    // }
-    
-                    
+                        }   
                 }
             }
         }
@@ -459,8 +429,9 @@ body{
                             text-align: center;
                         }
                     }
-                    .section2__text{
-                        margin: 0;
+                    .section2__text.section2__p{
+                        margin-left:10%;
+                        margin-right: 10%;
                         p{
                             text-align: justify;
                             margin: 5% 10% 0 10%;
@@ -475,12 +446,9 @@ body{
 
                 }
             }
-            .section4__dot{
-                margin-bottom: 20%;
-                div{
-                    height:2vw;
-                    width: 2vw;
-                }
+            .section4__dot.dot{
+                margin-bottom: 18%;
+                
             }
             .section5{
                 .section5__board{
@@ -500,10 +468,7 @@ body{
                     align-items: center;
                 }
             }
-        }
-            
-        
-           
+        }     
     }
 }
 @media screen and (max-width:1240px){
@@ -512,17 +477,19 @@ body{
         .container{
            
             .section2{
-                .section2__header{
-                    h3{
-                        font-size: 2rem;
+                .section2__inform{
+                    .section2__header{
+                        margin-left: 15%
                     }
-                }
+                    .section2__text{
+                        margin-right: 15%;
+                        margin-left: 7%;
+                    }
+                }              
             }
             .section4{
                 .section4__text{
-                    margin: 4.166666% 10% 2.0833% 10%;
-
-                    
+                    margin: 4.166666% 10% 2.0833% 10%;   
                 }
             
             }
@@ -546,13 +513,11 @@ body{
    
 @media screen and (min-width:1600px){
     html{
-        font-size: 14px;
+        font-size: 16px;
         .container{
             .section4{
                 .section4__text{
-                    margin: 4.166666% 20.416666% 2.0833% 20.416666%;
-
-                    
+                    margin: 4.166666% 20.416666% 2.0833% 20.416666%;  
                 }
             
             }
