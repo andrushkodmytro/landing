@@ -329,6 +329,32 @@ body{
     html{
         font-size: 10px;
         .container{
+            .section1{
+                .section1__header{
+                    margin:0 auto;
+                    // width: 31.25%;
+                    h1{
+                        font-size: 3rem;
+                    }
+                }
+            }
+            .section2{
+                .section2__inform{
+                    flex-direction: column;
+                    .section2__header{
+                        margin:5% 10% 0 10%;
+                        h3{
+                            display: block;
+                        }
+                    }
+                    .section2__text{
+                        p{
+                            text-align: justify;
+                            margin: 5% 10% 0 10%;
+                        }
+                    }
+                }
+            }
 
 
             .section3__function{
@@ -375,7 +401,7 @@ body{
 
 @media screen and (min-width:540px) and (max-width:720px){
     html{
-        font-size: 8px;
+        font-size: 8px  !important;
         .section3__function{
             flex-direction: column;
             align-items: center
