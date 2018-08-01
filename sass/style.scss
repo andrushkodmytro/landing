@@ -9,6 +9,7 @@ $link__font:"SourceSans-regular";
 
 html{
     font-size: 16px;
+    
 }
 body{
     background-color: #868e95;
@@ -148,20 +149,22 @@ body{
             margin:4.166666% auto 8.28125% 0;
             padding: 0 20.416666%;
 
-            .section__function__item{
+            .section3__function__item{
                width: 25%;
-                // height: 200px;
+                height: 15vw;
                 margin:20px 10px;
+                transition: 0.4s;
+                border-radius: 5px;
               
                 
                 div{
-                    height: 100%;
+                    height: 60%;
                     width:100%;
                     display: flex;
                     align-items: center;
                     margin:0 auto;
                     img{
-                        width: 35%;
+                        width: 25%;
                         // max-height: 100%;
                         // height:auto;
                         // max-width: 100%;
@@ -171,14 +174,15 @@ body{
                 }
 
                 p{
+                    margin: 7% auto;
                     text-align: center;
                     font-family: $link__font;
                     font-size: 1rem;
                 }
                
             }
-            .section__function__item:hover{
-                background-color: #868e95;
+            .section3__function__item:hover{
+                background-color: rgba(129, 129, 129, 0.253);
                 transition: .5s;
             }
 
@@ -257,7 +261,6 @@ body{
         }
     }
     .section5{
-        // height:303px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -269,7 +272,7 @@ body{
             justify-content: space-between;
             align-items: center;
             background-color: $main__color;
-            width: 59.16%;
+            width: 59%;
             // height:20.833333%;
             margin-top:-5%;
             padding:4.166666% 0;
@@ -297,26 +300,21 @@ body{
             }
         }
         .section5__logo{
-            width: 60%;
+            width: 59%;
+            text-align: center;
             display: flex;
             justify-content: space-between;
             margin-top: 4.114583%;
             margin-bottom: 4.166666%;
-            .section5__logo__walker{
                 display: flex;
-                align-items: center;
+                justify-content: space-between;
                 img{
-                    width: auto;
+                    height: 2.083333vw;
                 }
                 p{
                     margin-left: 38px;
                 }
-            }
-
-            .section5__logo__lasoft{
-                text-align: right;
-                height:50%;
-            }
+            
         }
 
     }
@@ -326,15 +324,39 @@ body{
     html{
         font-size: 10px;
         .container{
-            
-            
-
-
+            .section1{
+                .logo{
+                    img{
+                        width:12%;
+                    }
+                }
+                .section1__header{
+                    h1{
+                        font-size: 2rem;
+                    }
+                }
+            }
             .section3__function{
                 flex-direction: column;
                 align-items: center;
             }
-
+            .section5{
+                .section5__board{
+                    button{
+                        width: 60% !important;
+                    }
+                    h3{
+                        font-size: 1.5rem
+                    }
+                }
+                .section5__logo{
+                    img{
+                        height:4.70656vw;
+    
+                    }
+                }
+                
+            }
             
             
         }
@@ -357,11 +379,22 @@ body{
                     }
                 }
             }
-            
-            .section3__function{
-                flex-direction: column;
-                align-items: center
+            .section3{
+                .section3__function{
+                    flex-direction: column;
+                    align-items: center;
+                    .section3__function__item{
+                        height:35vw;
+                        width: 45%;
+                        img{
+                            width: 40%;
+                        }
+                    }
+                   
+
+                }
             }
+               
             .section4{
                 .section4__text{
                     margin:2% 10%;
@@ -375,28 +408,31 @@ body{
             }
             .section5{
                 .section5__board{
-                    flex-direction: column;
-                    h3{
-                        margin:1% 10% ;
-                    }
-                    button{
-                        margin:1% 10% ;
-                        width:35%;
+                    .boardbtn{
+                        width: 35%;
                     }
                 }
+              
                 .section5__logo{
-                    flex-direction: column;
-                    .section5__logo__walker{
-                        flex-direction: column;
-                        text-align: center;
+
+                        img{
+                            
+                            height:3vw; 
+                        }
                         p{
                             font-size: 1rem;
-                            margin: 10% 0;
+                            margin: 1% 0 1% 0%;
                         }
-                    }
-                    .section5__logo__lasoft{
-                         text-align: center;
-                    }
+                    // .section5__logo__lasoft{
+                    //      text-align: center;
+                    //      display: flex;
+                    //      align-items: center;
+                    //      img{
+                    //         height:3vw;
+                           
+
+                    //     }
+                    // }
     
                     
                 }
@@ -432,10 +468,35 @@ body{
                     }
                 }
             }
+            .section3{
+                .section3__function{
+                  padding:0 10%;
+                   
+
+                }
+            }
             .section4__dot{
                 div{
                     height:2vw;
                     width: 2vw;
+                }
+            }
+            .section5{
+                .section5__board{
+                    flex-direction: column;
+                    width:80%;
+                    margin-top: -10%;
+                    h3{
+                        margin:1% 10% ;
+                    }
+                    button{
+                        margin:1% 10% ;
+                        width:40%;
+                    }
+                }
+                .section5__logo{
+                    width: 80%;
+                    
                 }
             }
         }
@@ -456,16 +517,6 @@ body{
                     }
                 }
             }
-        }
-            
-      
-    }
-}
-   
-@media screen and (min-width:1240px){
-    html{
-        font-size: 14px;
-        .container{
             .section4{
                 .section4__text{
                     margin: 4.166666% 20.416666% 2.0833% 20.416666%;
@@ -474,8 +525,42 @@ body{
                 }
             
             }
-       
+            .section5{
+                .section5__board{
+                    h3{
+                        margin-left: 10%
+                    }
+                    button{
+                        margin-right: 10%;
+                        width: 25%;
+                    }
+                }
+            }
         }
-    
+        
+            
+      
     }
+}
+   
+@media screen and (min-width:1600px){
+    html{
+        font-size: 14px;
+        .container{
+           
+            .section5{
+                .section5__board{
+                    h3{
+                        margin-left: 10%
+                    }
+                    button{
+                        margin-right: 10%;
+                        width: 20%;
+                    }
+                }
+            }
+        }
+        
+    }
+
 }
