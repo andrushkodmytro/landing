@@ -32,18 +32,16 @@ body{
         flex-direction: column;
         
         .logo{
-            margin:2.083333% auto 2.916666% auto;
-            height: 2.083333%;
+           margin-top: 2%;
             
             img{
                 display: block;
-            }
-            img[alt="lasoft powered"]{
-                margin: 0.416666vw auto 0 auto;
+                width: 10%;
+                margin: 1% auto;
             }
         }
         .section1__header{
-            margin:0 auto;
+            margin:4% auto 0 auto;
             // width: 31.25%;
             h1{
                 text-transform: uppercase;
@@ -58,13 +56,13 @@ body{
             font-size: 1rem;
             line-height: 1.5rem;
             color:#fff;
-            margin: 0.833333% auto 1.666666% auto;
+            margin: 0.833333% auto 2% auto;
             text-align: center;
             font-family: $link__font;
         }
         .section1__button{
             text-align: center;
-            margin:23px auto 20% auto;
+            margin:0 auto 20% auto;
             button{
                 font-size: 1rem;
                 line-height: 1.5rem;
@@ -93,15 +91,13 @@ body{
         .section2__inform{
             display: flex;
             align-items: center;
-            margin: 7% auto 0 auto;
-            // width:59.1%;
-            
+            margin: 7% auto 0 auto;            
             
             .section2__header{
                 display: block;
                 margin-left: 20.41666%;
-                margin-right: 8.59375%;
-                // width:20%;
+                // margin-right: 8.59375%;
+                width:60%;
 
                 h3{
                     font-size: 2.5rem;
@@ -113,17 +109,18 @@ body{
             
 
             }
-            p{
-                // width: 40%;
-                display: inline-block;
+            .section2__text{
                 margin-right: 20.41666%;
-                margin-top: 0;
-                font-family: $link__font;
-                font-size:1rem;
-
-                
-
+                margin-left: 8.59375%;
+                p{
+                    display: inline-block;
+                   text-align: justify;
+                    margin-top: 0;
+                    font-family: $link__font;
+                    font-size:1rem;
+                }
             }
+               
         
         }
         .section2__walkboy{
@@ -164,9 +161,9 @@ body{
                     align-items: center;
                     margin:0 auto;
                     img{
-                        width: auto;
+                        width: 35%;
                         // max-height: 100%;
-                        height:auto;
+                        // height:auto;
                         // max-width: 100%;
                        display: block;
                        margin:0 auto;
@@ -329,32 +326,8 @@ body{
     html{
         font-size: 10px;
         .container{
-            .section1{
-                .section1__header{
-                    margin:0 auto;
-                    // width: 31.25%;
-                    h1{
-                        font-size: 3rem;
-                    }
-                }
-            }
-            .section2{
-                .section2__inform{
-                    flex-direction: column;
-                    .section2__header{
-                        margin:5% 10% 0 10%;
-                        h3{
-                            display: block;
-                        }
-                    }
-                    .section2__text{
-                        p{
-                            text-align: justify;
-                            margin: 5% 10% 0 10%;
-                        }
-                    }
-                }
-            }
+            
+            
 
 
             .section3__function{
@@ -362,9 +335,36 @@ body{
                 align-items: center;
             }
 
+            
+            
+        }
+    }
+        
+        
+        
+    
+}
+
+@media screen and (max-width:720px){
+    html{
+        font-size: 10px;
+        .container{
+            .section1{
+                .section1__header{
+                    margin:0 auto;
+                    h1{
+                        font-size: 3rem;
+                    }
+                }
+            }
+            
+            .section3__function{
+                flex-direction: column;
+                align-items: center
+            }
             .section4{
                 .section4__text{
-                    // margin:0 auto;
+                    margin:2% 10%;
                     .section4__text__button,.section4__text__button{
                         display: none;
                     }
@@ -374,6 +374,16 @@ body{
                 }
             }
             .section5{
+                .section5__board{
+                    flex-direction: column;
+                    h3{
+                        margin:1% 10% ;
+                    }
+                    button{
+                        margin:1% 10% ;
+                        width:35%;
+                    }
+                }
                 .section5__logo{
                     flex-direction: column;
                     .section5__logo__walker{
@@ -381,6 +391,7 @@ body{
                         text-align: center;
                         p{
                             font-size: 1rem;
+                            margin: 10% 0;
                         }
                     }
                     .section5__logo__lasoft{
@@ -389,42 +400,64 @@ body{
     
                     
                 }
-                
             }
         }
-    }
+           
         
-        
-        
-    
-}
-
-@media screen and (min-width:540px) and (max-width:720px){
-    html{
-        font-size: 8px  !important;
-        .section3__function{
-            flex-direction: column;
-            align-items: center
-        }
         
        
     }
 }
-@media screen and (min-width:720px) and (max-width:960px){
+@media screen and (max-width:960px){
     html{
         font-size: 10px;
-      
-        .section4__dot{
-            div{
-                height:2vw;
-                width: 2vw;
+        .container{
+            .section2{
+                .section2__inform{
+                    flex-direction: column;
+                    .section2__header{
+                        margin:5% 10% 0 10%;
+                        
+                        h3{
+                            display: block;
+                            text-align: center;
+                        }
+                    }
+                    .section2__text{
+                        margin: 0;
+                        p{
+                            text-align: justify;
+                            margin: 5% 10% 0 10%;
+                        }
+                    }
+                }
+            }
+            .section4__dot{
+                div{
+                    height:2vw;
+                    width: 2vw;
+                }
             }
         }
+            
+        
+           
     }
 }
-@media screen and (min-width:960px) and (max-width:1240px){
+@media screen and (max-width:1240px){
     html{
         font-size: 12px;
+        .container{
+           
+            .section2{
+                .section2__header{
+                    h3{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+            
       
     }
 }

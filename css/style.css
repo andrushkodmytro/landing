@@ -26,22 +26,19 @@ body {
 }
 /* line 34, ../sass/style.scss */
 .container .section1 .logo {
-  margin: 2.083333% auto 2.916666% auto;
-  height: 2.083333%;
+  margin-top: 2%;
 }
-/* line 38, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 .container .section1 .logo img {
   display: block;
+  width: 10%;
+  margin: 1% auto;
 }
-/* line 41, ../sass/style.scss */
-.container .section1 .logo img[alt="lasoft powered"] {
-  margin: 0.416666vw auto 0 auto;
-}
-/* line 45, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .container .section1 .section1__header {
-  margin: 0 auto;
+  margin: 4% auto 0 auto;
 }
-/* line 48, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .container .section1 .section1__header h1 {
   text-transform: uppercase;
   font-size: 5rem;
@@ -50,21 +47,21 @@ body {
   color: #fff;
   font-family: "NebasNeue";
 }
-/* line 57, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .container .section1 .section1__text {
   font-size: 1rem;
   line-height: 1.5rem;
   color: #fff;
-  margin: 0.833333% auto 1.666666% auto;
+  margin: 0.833333% auto 2% auto;
   text-align: center;
   font-family: "SourceSans-regular";
 }
-/* line 65, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .container .section1 .section1__button {
   text-align: center;
-  margin: 23px auto 20% auto;
+  margin: 0 auto 20% auto;
 }
-/* line 68, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .container .section1 .section1__button button {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -76,62 +73,67 @@ body {
   width: 195px;
   border: none;
 }
-/* line 84, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 .container .section2 .section2__screenshot {
   text-align: center;
   margin-top: -15%;
 }
-/* line 88, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .container .section2 .section2__screenshot img {
   margin: 0 auto;
   width: 41.5%;
 }
-/* line 93, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .container .section2 .section2__inform {
   display: flex;
   align-items: center;
   margin: 7% auto 0 auto;
 }
-/* line 100, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .container .section2 .section2__inform .section2__header {
   display: block;
   margin-left: 20.41666%;
-  margin-right: 8.59375%;
+  width: 60%;
 }
-/* line 106, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 .container .section2 .section2__inform .section2__header h3 {
   font-size: 2.5rem;
   line-height: 3rem;
   font-family: "NebasNeue";
   display: inline-block;
 }
-/* line 116, ../sass/style.scss */
-.container .section2 .section2__inform p {
-  display: inline-block;
+/* line 112, ../sass/style.scss */
+.container .section2 .section2__inform .section2__text {
   margin-right: 20.41666%;
+  margin-left: 8.59375%;
+}
+/* line 115, ../sass/style.scss */
+.container .section2 .section2__inform .section2__text p {
+  display: inline-block;
+  text-align: justify;
   margin-top: 0;
   font-family: "SourceSans-regular";
   font-size: 1rem;
 }
-/* line 129, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .container .section2 .section2__walkboy {
   margin-top: 8.541666%;
 }
-/* line 132, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 .container .section2 .section2__walkboy img {
   width: 100%;
 }
-/* line 139, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .container .section3 .section3__header {
   text-align: center;
   margin-top: 8.333333%;
 }
-/* line 142, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .container .section3 .section3__header h3 {
   font-size: 2.25rem;
   font-family: "NebasNeue";
 }
-/* line 147, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .container .section3 .section3__function {
   display: flex;
   justify-content: center;
@@ -139,12 +141,12 @@ body {
   margin: 4.166666% auto 8.28125% 0;
   padding: 0 20.416666%;
 }
-/* line 154, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .container .section3 .section3__function .section__function__item {
   width: 25%;
   margin: 20px 10px;
 }
-/* line 160, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .container .section3 .section3__function .section__function__item div {
   height: 100%;
   width: 100%;
@@ -152,33 +154,32 @@ body {
   align-items: center;
   margin: 0 auto;
 }
-/* line 166, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .container .section3 .section3__function .section__function__item div img {
-  width: auto;
-  height: auto;
+  width: 35%;
   display: block;
   margin: 0 auto;
 }
-/* line 176, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 .container .section3 .section3__function .section__function__item p {
   text-align: center;
   font-family: "SourceSans-regular";
   font-size: 1rem;
 }
-/* line 183, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .container .section3 .section3__function .section__function__item:hover {
   background-color: #868e95;
   transition: .5s;
 }
-/* line 191, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .container .section4 {
   background-color: #273570;
 }
-/* line 195, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .container .section4 .section4__header {
   margin-top: 6.25%;
 }
-/* line 197, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 .container .section4 .section4__header h3 {
   font-family: "NebasNeue";
   font-size: 2.25rem;
@@ -186,55 +187,55 @@ body {
   color: #fff;
   text-align: center;
 }
-/* line 206, ../sass/style.scss */
+/* line 203, ../sass/style.scss */
 .container .section4 .section4__text {
   display: flex;
   margin: 4.166666% 5% 2.0833% 5%;
   display: flex;
   justify-content: space-between;
 }
-/* line 212, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .container .section4 .section4__text .section4__text__main {
   width: 66.197183%;
   color: #fff;
   font-family: "SourceSans-regular";
 }
-/* line 216, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .container .section4 .section4__text .section4__text__main p {
   text-align: justify;
   font-size: 1rem;
 }
-/* line 220, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .container .section4 .section4__text .section4__text__main .section4__text__user {
   display: flex;
   margin-top: 1.25vw;
 }
-/* line 223, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 .container .section4 .section4__text .section4__text__main .section4__text__user img {
   margin-right: 0.833333vw;
 }
-/* line 226, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 .container .section4 .section4__text .section4__text__main .section4__text__user div {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-/* line 234, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .container .section4 .section4__text .section4__text__buttonl {
   width: 30%;
 }
-/* line 238, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 .container .section4 .section4__text .section4__text__buttonr {
   width: 30%;
 }
-/* line 244, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .container .section4 .section4__dot {
   display: flex;
   margin: 0 44.791666%;
   margin-bottom: 11.666666%;
   justify-content: space-between;
 }
-/* line 250, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 .container .section4 .section4__dot div {
   height: 0.5vw;
   width: 0.5vw;
@@ -242,17 +243,17 @@ body {
   border-radius: 100%;
   margin-right: 10%;
 }
-/* line 257, ../sass/style.scss */
+/* line 254, ../sass/style.scss */
 .container .section4 .section4__dot .active {
   background-color: #fff;
 }
-/* line 262, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 .container .section5 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-/* line 270, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 .container .section5 .section5__board {
   display: flex;
   justify-content: space-between;
@@ -262,7 +263,7 @@ body {
   margin-top: -5%;
   padding: 4.166666% 0;
 }
-/* line 280, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
 .container .section5 .section5__board h3 {
   font-size: 2.25rem;
   line-height: 3rem;
@@ -271,7 +272,7 @@ body {
   text-align: center;
   margin-left: 17%;
 }
-/* line 288, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 .container .section5 .section5__board button {
   background-color: #273570;
   border-radius: 4px;
@@ -285,7 +286,7 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
 }
-/* line 302, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 .container .section5 .section5__logo {
   width: 60%;
   display: flex;
@@ -293,59 +294,57 @@ body {
   margin-top: 4.114583%;
   margin-bottom: 4.166666%;
 }
-/* line 308, ../sass/style.scss */
+/* line 305, ../sass/style.scss */
 .container .section5 .section5__logo .section5__logo__walker {
   display: flex;
   align-items: center;
 }
-/* line 311, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 .container .section5 .section5__logo .section5__logo__walker img {
   width: auto;
 }
-/* line 314, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .container .section5 .section5__logo .section5__logo__walker p {
   margin-left: 38px;
 }
-/* line 319, ../sass/style.scss */
+/* line 316, ../sass/style.scss */
 .container .section5 .section5__logo .section5__logo__lasoft {
   text-align: right;
   height: 50%;
 }
 
 @media screen and (max-width: 539px) {
-  /* line 329, ../sass/style.scss */
+  /* line 326, ../sass/style.scss */
   html {
     font-size: 10px;
   }
   /* line 333, ../sass/style.scss */
-  html .container .section1 .section1__header {
-    margin: 0 auto;
-  }
-  /* line 336, ../sass/style.scss */
-  html .container .section1 .section1__header h1 {
-    font-size: 3rem;
-  }
-  /* line 342, ../sass/style.scss */
-  html .container .section2 .section2__inform {
-    flex-direction: column;
-  }
-  /* line 344, ../sass/style.scss */
-  html .container .section2 .section2__inform .section2__header {
-    margin: 5% 10% 0 10%;
-  }
-  /* line 346, ../sass/style.scss */
-  html .container .section2 .section2__inform .section2__header h3 {
-    display: block;
-  }
-  /* line 351, ../sass/style.scss */
-  html .container .section2 .section2__inform .section2__text p {
-    text-align: justify;
-    margin: 5% 10% 0 10%;
-  }
-  /* line 360, ../sass/style.scss */
   html .container .section3__function {
     flex-direction: column;
     align-items: center;
+  }
+}
+@media screen and (max-width: 720px) {
+  /* line 349, ../sass/style.scss */
+  html {
+    font-size: 10px;
+  }
+  /* line 353, ../sass/style.scss */
+  html .container .section1 .section1__header {
+    margin: 0 auto;
+  }
+  /* line 355, ../sass/style.scss */
+  html .container .section1 .section1__header h1 {
+    font-size: 3rem;
+  }
+  /* line 361, ../sass/style.scss */
+  html .container .section3__function {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 366, ../sass/style.scss */
+  html .container .section4 .section4__text {
+    margin: 2% 10%;
   }
   /* line 368, ../sass/style.scss */
   html .container .section4 .section4__text .section4__text__button, html .container .section4 .section4__text .section4__text__button {
@@ -356,57 +355,86 @@ body {
     width: 100%;
   }
   /* line 377, ../sass/style.scss */
-  html .container .section5 .section5__logo {
+  html .container .section5 .section5__board {
     flex-direction: column;
   }
   /* line 379, ../sass/style.scss */
+  html .container .section5 .section5__board h3 {
+    margin: 1% 10%;
+  }
+  /* line 382, ../sass/style.scss */
+  html .container .section5 .section5__board button {
+    margin: 1% 10%;
+    width: 35%;
+  }
+  /* line 387, ../sass/style.scss */
+  html .container .section5 .section5__logo {
+    flex-direction: column;
+  }
+  /* line 389, ../sass/style.scss */
   html .container .section5 .section5__logo .section5__logo__walker {
     flex-direction: column;
     text-align: center;
   }
-  /* line 382, ../sass/style.scss */
+  /* line 392, ../sass/style.scss */
   html .container .section5 .section5__logo .section5__logo__walker p {
     font-size: 1rem;
+    margin: 10% 0;
   }
-  /* line 386, ../sass/style.scss */
+  /* line 397, ../sass/style.scss */
   html .container .section5 .section5__logo .section5__logo__lasoft {
     text-align: center;
   }
 }
-@media screen and (min-width: 540px) and (max-width: 720px) {
-  /* line 403, ../sass/style.scss */
-  html {
-    font-size: 8px  !important;
-  }
-  /* line 405, ../sass/style.scss */
-  html .section3__function {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-@media screen and (min-width: 720px) and (max-width: 960px) {
-  /* line 414, ../sass/style.scss */
+@media screen and (max-width: 960px) {
+  /* line 412, ../sass/style.scss */
   html {
     font-size: 10px;
   }
+  /* line 416, ../sass/style.scss */
+  html .container .section2 .section2__inform {
+    flex-direction: column;
+  }
   /* line 418, ../sass/style.scss */
-  html .section4__dot div {
+  html .container .section2 .section2__inform .section2__header {
+    margin: 5% 10% 0 10%;
+  }
+  /* line 421, ../sass/style.scss */
+  html .container .section2 .section2__inform .section2__header h3 {
+    display: block;
+    text-align: center;
+  }
+  /* line 426, ../sass/style.scss */
+  html .container .section2 .section2__inform .section2__text {
+    margin: 0;
+  }
+  /* line 428, ../sass/style.scss */
+  html .container .section2 .section2__inform .section2__text p {
+    text-align: justify;
+    margin: 5% 10% 0 10%;
+  }
+  /* line 436, ../sass/style.scss */
+  html .container .section4__dot div {
     height: 2vw;
     width: 2vw;
   }
 }
-@media screen and (min-width: 960px) and (max-width: 1240px) {
-  /* line 426, ../sass/style.scss */
+@media screen and (max-width: 1240px) {
+  /* line 448, ../sass/style.scss */
   html {
     font-size: 12px;
   }
+  /* line 454, ../sass/style.scss */
+  html .container .section2 .section2__header h3 {
+    font-size: 2rem;
+  }
 }
 @media screen and (min-width: 1240px) {
-  /* line 433, ../sass/style.scss */
+  /* line 466, ../sass/style.scss */
   html {
     font-size: 14px;
   }
-  /* line 437, ../sass/style.scss */
+  /* line 470, ../sass/style.scss */
   html .container .section4 .section4__text {
     margin: 4.166666% 20.416666% 2.0833% 20.416666%;
   }
